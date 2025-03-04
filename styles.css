@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: red;
+    padding: 20px;
+}
+
+#countdown {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.band-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.band {
+    background: #222;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.band img {
+    width: 150px;
+    border-radius: 5px;
+}
